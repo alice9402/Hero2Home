@@ -1,5 +1,5 @@
 
-        <div class="footer-above">
+        <div class="footer-above" style="color: #fff; background: #58A3BC;">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
@@ -30,6 +30,7 @@
                 </div>
             </div>
         </div>
+	
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -42,6 +43,7 @@
                 </div>
             </div>
         </div>
+	
     </footer>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visble-sm">
