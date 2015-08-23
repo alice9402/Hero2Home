@@ -1,60 +1,7 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="es">
-<head>
-  <link href="<?php  echo base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php  echo base_url(); ?>/css/main.css">
-        <link href="<?php  echo base_url(); ?>/fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-</head>
-<body>
 
-<div id="container">
-	  <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-  <!-- Navegacion -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">H2H</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Nuestros héroes</a>
-                    </li>
-                     <li class="page-scroll">
-                        <a href="#beHero">Sé un héroe</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contactanos</a>
-                    </li>
-                    
-                   
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
     <!-- Header -->
     <header>
@@ -105,57 +52,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<hr class="star-primary" >
 			<h3>Sé un héroe</h3>
 			<h5>¡Entra en nuestra liga de superhéroes!</h5>
-			<img align="center" width="200px" src="<?php  echo base_url(); ?>/images/profile.png" class="img-responsive" alt="stitch">
+			<a href="http://localhost/Hero2Home/index.php/HeroForm"><img align="center" width="200px" src="<?php  echo base_url(); ?>/images/profile.png" class="img-responsive"  alt="stitch">
+			</a>
 		</div>
                 <div class="col-lg-4 text-center">
 			<hr class="star-primary">
 			<h3>Encuentra tú Héroe</h3>
 			<h5>Vísita nuestra galería de héroes</h5>
-			
+			<a href="http://localhost/Hero2Home/index.php/Gallery" >Entra</a>
 		</div>
 
             </div>
             
-            <!--<div class="row">
-             
-                <form name="registroHeroe" id="heroForm">
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Apodo</label>
-                                <input type="text" class="form-control" placeholder="Apodo" id="apodo" required data-validation-required-message="Por favor introduce un Apodo.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>SuperPoder</label>
-                                <input type="text" class="form-control" placeholder="Poder" id="Poder" required data-validation-required-message="Por favor introduce un SuperPoder.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Telefono</label>
-                                <input type="text" class="form-control" placeholder="Telefono" id="phone2" required data-validation-required-message="Por favor introduzca su numero de telefono.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Correo electrónico</label>
-                                <input type="email" class="form-control" placeholder="Email" id="email2" required data-validation-required-message="Por favor introduzca su email.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                       
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
-                            </div>
-                        </div>
-	    </form>-->
-            </div>
+          
         </div>
     </section>
     <!-- Contact Section -->

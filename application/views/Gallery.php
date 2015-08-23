@@ -1,4 +1,13 @@
-<!-- Galeria Grid Section -->
+
+<head>
+  <link href="<?php  echo base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php  echo base_url(); ?>/css/main.css">
+        <link href="<?php  echo base_url(); ?>/fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+<body><!-- Galeria Grid Section -->
     <section id="galeria">
         <div class="container">
             <div class="row">
@@ -65,7 +74,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/mario_900.jpg" class="img-responsive" alt="Mario Bros">
+                        <img src="<?php  echo base_url(); ?>/images/portfolio/mario_900.jpg" class="img-responsive" alt="Mario Bros">
                     </a>
                 </div>
                
@@ -76,7 +85,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/hulk_900.jpg" class="img-responsive" alt="Hulk">
+                        <img src="<?php  echo base_url(); ?>/images/portfolio/hulk_900.jpg" class="img-responsive" alt="Hulk">
                     </a>
                 </div>
                 
@@ -87,7 +96,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/samus_900.png" class="img-responsive" alt="Samus Zero">
+                        <img src="<?php  echo base_url(); ?>/images/portfolio/samus_900.png" class="img-responsive" alt="Samus Zero">
                     </a>
                 </div>
                 <div class="col-sm-4 galeria-item">
@@ -97,7 +106,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/r2d2_900.jpg" class="img-responsive" alt="r2d2">
+                        <img src="<?php  echo base_url(); ?>/images/portfolio/r2d2_900.jpg" class="img-responsive" alt="r2d2">
                     </a>
                 </div>
                
@@ -105,4 +114,6 @@
             </div>
         </div>
     </section>
+    
+    </body>
     
