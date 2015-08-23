@@ -3,8 +3,8 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Direccion</h3>
-                        <p>Desconocida</p>
+                        <h3>Contacto!</h3>
+                        <button class="btn btn-success btn-lg">Preguntanos!</button>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes Sociales</h3>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Alicia Arráez</h3>
-                        <p>Ver repositorio en  <a href="https://github.com/alvisand/sitio-web"><img src="<?php  echo base_url(); ?>/images/portfolio/git.png" class="img-responsive img-centered" alt="Git Hub"></a></p>
+                        <a href="https://github.com/alvisand/sitio-web"><img width="80px" src="<?php  echo base_url(); ?>/images/secret_login.png" class="img-responsive img-centered" alt="Login Superhéroes"></a>
                     </div>
                 </div>
             </div>

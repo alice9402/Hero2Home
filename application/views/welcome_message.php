@@ -25,16 +25,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Sobre los héroes</h2>
+                    <h2>Infórmate sobre nuestros héroes</h2>
                     <hr class="star-light">
                 </div>
             </div>
         <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p>Nuestro héroes son personas como tú y como yo, pero que son algo especiales, tienen superpoderes y quieren compartirlos.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Echa un vistazo en la galería de heroes y encuentra al que pueda ayudarte!, Están deseando que les llames!</p>
+                    <p>Echa un vistazo en la galería de heroes y encuentra al que pueda ayudarte! Están deseando que les llames!</p>
                 </div>
                     <!--<div class="col-lg-6 col-lg-offset-3">
                      <video src="video/BurritoVan.mp4" controls class="img img-responsive" width="640" height="360"></video> 
@@ -52,14 +50,16 @@
 			<hr class="star-primary" >
 			<h3>Sé un héroe</h3>
 			<h5>¡Entra en nuestra liga de superhéroes!</h5>
-			<a href="http://localhost/Hero2Home/index.php/HeroForm"><img align="center" width="200px" src="<?php  echo base_url(); ?>/images/profile.png" class="img-responsive"  alt="stitch">
+			<a href="http://localhost/Hero2Home/index.php/HeroForm"><img align="center"  style="margin-left: 20%"width="200px" src="<?php  echo base_url(); ?>/images/profile.png" class="img-responsive"  alt="stitch">
 			</a>
 		</div>
                 <div class="col-lg-4 text-center">
 			<hr class="star-primary">
 			<h3>Encuentra tú Héroe</h3>
 			<h5>Vísita nuestra galería de héroes</h5>
-			<a href="http://localhost/Hero2Home/index.php/Gallery" >Entra</a>
+			
+			<a href="http://localhost/Hero2Home/index.php/Gallery" ><img align="center" style="margin-left: 20%" width="200px" src="<?php  echo base_url(); ?>images/gallery.png" class="img-responsive"  alt="gallery"></a>
+</a>
 		</div>
 
             </div>
