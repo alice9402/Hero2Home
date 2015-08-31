@@ -4,8 +4,8 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Contacto!</h3>
-                        <button class="btn btn-success btn-lg">Preguntanos!</button>
-                    </div>
+			<a href="http://localhost/Hero2Home/index.php/Contact_me" class="btn btn-warning btn-lg" role="button">Preguntanos</a>
+                           </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes Sociales</h3>
                         <ul class="list-inline">
