@@ -8,8 +8,5 @@ class Gallery extends CI_Controller {
 	{
 		$this->load->view('Header');
 		$this->load->view('HeroGallery');
-
-      
-
 	}
 }

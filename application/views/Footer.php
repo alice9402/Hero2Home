@@ -1,5 +1,4 @@
-
-        <div class="footer-above" style="color: #fff; background: #58A3BC;">
+<div class="footer-above" style="color: #fff; background: #58A3BC;">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">

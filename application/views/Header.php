@@ -35,16 +35,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="http://localhost:8888/Hero2Home/"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="http://localhost/Hero2Home/#about">Nuestros héroes</a>
+                        <a href="http://localhost:8888/Hero2Home/#about">Nuestros héroes</a>
                     </li>
                      <li class="page-scroll">
-                        <a href="http://localhost/Hero2Home/#beHero">Sé un héroe</a>
+                        <a href="http://localhost:8888/Hero2Home/#beHero">Sé un héroe</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="http://localhost/Hero2Home/#contact">Contactanos</a>
+                        <a href="http://localhost:8888/Hero2Home/#contact">Contactanos</a>
                     </li>
                     
                    
