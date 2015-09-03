@@ -8,7 +8,8 @@ class Model_Heroes extends CI_Model {
         $this->db->insert('Hero',$data);
     }
     //Funcion para sacar todos los heroes
-    function getAll(){
+    function getAll($c_id){
+        $query = $this->db->where("category_id",$c_id);
         $query= $this->db->get('Hero');
         return $query-> result();
         

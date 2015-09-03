@@ -17,7 +17,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal1" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/1'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal2" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/2'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -37,7 +37,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal3" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/3'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -47,7 +47,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal4" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/4'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -57,7 +57,7 @@
                     </a>
                 </div>
                  <div class="col-sm-4 galeria-item">
-                    <a href="<?php  echo base_url(). 'heroes/ShowHero'?>" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/5'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal6" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/6'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -78,7 +78,7 @@
                 </div>
                
                 <div class="col-sm-4 galeria-item">
-                    <a href="#galeriaModal8" class="galeria-link" data-toggle="modal">
+                    <a href="<?php  echo base_url(). 'heroes/ShowHero/7'?>" class="galeria-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>

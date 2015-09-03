@@ -2,7 +2,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-           <?php
+            <table class="table table-striped">
+<?php
             foreach ($query as $row){
                 echo $row->nick."<br/>";
                 ?> <a href=""><?php echo $row->mail."<br/>";?></a>
@@ -11,6 +12,8 @@
             } 
             ?>
         </div>
+</table>
+           
         
         
     </div>

@@ -24,25 +24,32 @@ class Contact_me extends CI_Controller {
 		$this->load->view('Contact_form');
 	}
         public function contact()
-        {
-            if(empty($_POST['Name'])  		||
-            empty($_POST['Email']) 		||
-            empty($_POST['Phone']) 		||
-            empty($_POST['Message'])	||
-            !filter_var($_POST['Email'],FILTER_VALIDATE_EMAIL))
-              {
-                   echo "No arguments Provided!";
-                   return false;
-              }
+        {       
+            
                    
-           $name = $_POST['name'];
-           $email_address = $_POST['email'];
-           $phone = $_POST['phone'];
-           $message = $_POST['message'];
+           $name = $_POST['Name'];
+           $email_address = $_POST['Email'];
+           $phone = $_POST['Phone'];
+           $message = $_POST['Message'];
                    
-           $to = 'contacto@h2h.com';
+           $to = 'alicia.arraez@gmail.com';
            $email_subject = "Contacto desde :  $name";
            $email_body = "Has recibido un nuevo mensaje del formulario de contacto.\n\n"."Detalles:\n\nNombre: $name\n\nEmail: $email_address\n\nTelefono: $phone\n\nMensaje:\n$message";
+           $headers = "From: noreply@h2h.com\n";
+           $headers .= "Reply-To: $email_address";	
+           mail($to,$email_subject,$email_body,$headers);
+           return true;
+        }
+	public function ContactHero()
+        {           
+           $name = $_POST['Name'];
+           $email_address = $_POST['Email'];
+           $phone = $_POST['Phone'];
+           $message = $_POST['Message'];
+                   
+           $to = 'alicia.arraez@gmail.com';
+           $email_subject = "Contacto desde :  $name";
+           $email_body = "Tienes una nueva notificaci—n!.\n\n"."Detalles:\n\nNombre: $name\n\nEmail: $email_address\n\nTelefono: $phone\n\nMensaje:\n$message";
            $headers = "From: noreply@h2h.com\n";
            $headers .= "Reply-To: $email_address";	
            mail($to,$email_subject,$email_body,$headers);

@@ -31,10 +31,9 @@ class Heroes extends CI_Controller {
 		$this->model_heroes->insert($data);
 		redirect(base_url());
 	}
-	public function ShowHero(){
-		$data['query']=$this->model_heroes->getAll();
+	public function ShowHero($c_id){
+		$data['query']=$this->model_heroes->getAll($c_id);
 		$this->load->view('Header',$data);
 		$this->load->view('DirectoryHero');
 	}
-	
 }

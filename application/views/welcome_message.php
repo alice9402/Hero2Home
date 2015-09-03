@@ -8,7 +8,7 @@
                         <span class="name">Consigue un héroe</span>
                         <hr class="star-light">
                         <span class="skills">Infórmaticos - Detectives - Cuidadores</span>
-                    </div>
+			 </div>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
 			<hr class="star-primary" >
 			<h3>Regístrate como héroe</h3>
 			<h5>¡Entra en nuestra liga de héroes!</h5>
-			<a href="http://localhost/Hero2Home/index.php/HeroForm"><img align="center"  style="margin-left: 17%"width="230px" src="<?php  echo base_url(); ?>/images/bigbang.png" class="img-responsive"  alt="stitch">
+			<a href="http://localhost:8888/Hero2Home/index.php/form"><img align="center"  style="margin-left: 17%"width="230px" src="<?php  echo base_url(); ?>/images/bigbang.png" class="img-responsive"  alt="stitch">
 			</a>
 		</div>
                 <div class="col-lg-4 text-center">
@@ -53,9 +53,15 @@
 			<h3>Directorio de héroes</h3>
 			<h5>Entra en la galería y escoge a tu héroe</h5>
 			
-			<a href="http://localhost/Hero2Home/index.php/Gallery" ><img align="center" style="margin-left: 20%" width="200px" src="<?php  echo base_url(); ?>images/gallery.png" class="img-responsive"  alt="gallery"></a>
+			<a href="http://localhost:8888/Hero2Home/index.php/Gallery" ><img align="center" style="margin-left: 20%" width="200px" src="<?php  echo base_url(); ?>images/gallery.png" class="img-responsive"  alt="gallery"></a>
 </a>
 		</div>
+	    <form action="index.php" method="POST" enctype="multipart/form-data">
+		<input name="archivo" id="archivo" type="file"/>
+		<input type="submit" name="subir" value="Subir imagen"/>
+		<label class="control-label">Select File</label>
+		<input id="input-1" type="file" class="file">
+		</form>
 
             </div>
             
