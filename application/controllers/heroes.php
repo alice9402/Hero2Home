@@ -22,14 +22,19 @@ class Heroes extends CI_Controller {
 		$this->load->view('Footer');
 		
 		$data = array(
-		'Name' -> $this -> input -> post('nick'),
-		'Power' -> $this -> input -> post('superpower'),
-		'Phone' -> $this -> input -> post('phone'),
-		'Email' -> $this -> input -> post('mail'),
-		'Category' -> $this -> input -> post('category_id')
+		'nick' => $this -> input -> post('Name'),
+		'superpower' => $this -> input -> post('Power'),
+		'phone' => $this -> input -> post('Phone'),
+		'mail' => $this -> input -> post('Email'),
+		'category_id' => $this -> input -> post('Category')
 		);
 		$this->model_heroes->insert($data);
 		redirect(base_url());
+	}
+	public function ShowHero(){
+		$data['query']=$this->model_heroes->getAll();
+		$this->load->view('Header',$data);
+		$this->load->view('DirectoryHero');
 	}
 	
 }

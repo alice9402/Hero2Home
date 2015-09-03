@@ -25,11 +25,11 @@ class Contact_me extends CI_Controller {
 	}
         public function contact()
         {
-            if(empty($_POST['name'])  		||
-            empty($_POST['email']) 		||
-            empty($_POST['phone']) 		||
-            empty($_POST['message'])	||
-            !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+            if(empty($_POST['Name'])  		||
+            empty($_POST['Email']) 		||
+            empty($_POST['Phone']) 		||
+            empty($_POST['Message'])	||
+            !filter_var($_POST['Email'],FILTER_VALIDATE_EMAIL))
               {
                    echo "No arguments Provided!";
                    return false;
