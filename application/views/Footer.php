@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Contacto!</h3>
-			<a href="http://localhost/Hero2Home/index.php/Contact_me" class="btn btn-warning btn-lg" role="button">Preguntanos</a>
+			<a href="<?php echo base_url(); ?>Contact_me" class="btn btn-warning btn-lg" role="button">Preguntanos</a>
                            </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes Sociales</h3>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Alicia Arráez</h3>
-                        <a href="https://github.com/alvisand/sitio-web"><img width="80px" src="<?php  echo base_url(); ?>/images/secret_login.png" class="img-responsive img-centered" alt="Login Superhéroes"></a>
+                        <a href="<?php echo base_url(); ?>heroes/SecretLogin"><img width="80px" src="<?php  echo base_url(); ?>/images/secret_login.png" class="img-responsive img-centered" alt="Login Superhéroes"></a>
                     </div>
                 </div>
             </div>

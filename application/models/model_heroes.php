@@ -25,6 +25,28 @@ class Model_Heroes extends CI_Model {
                 return $arrDatos;
         }
     }
+      /*function get_one($mail){
+	$query = $this->db -> query('Select * from Hero where mail="'.$mail.'"');
+        if($query->num_rows() > 0)
+	{
+            return $query-> result();
+        }
+    }*/
+    function get_heroe($mail){
+        $query = $this->db->where("mail",$mail);
+        $query= $this->db->get('Hero');
+        if($query->num_rows() > 0)
+	{
+           return $query-> result();
+        }
+        
+    }
+    function delHero($mail){
+        
+        $query = $this->db->where("mail",$mail);
+        $query = $this->db->delete('Hero');
+        
+    }
     
     
     

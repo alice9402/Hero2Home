@@ -41,13 +41,16 @@ class Contact_me extends CI_Controller {
            return true;
         }
 	public function ContactHero()
-        {           
+        {
+		//$this->load->view('Header');
+		//$this->load->view('ContactHero');
+		
            $name = $_POST['Name'];
            $email_address = $_POST['Email'];
            $phone = $_POST['Phone'];
            $message = $_POST['Message'];
                    
-           $to = 'alicia.arraez@gmail.com';
+           $to = 'edu11_ejea@hotmail.com';
            $email_subject = "Contacto desde :  $name";
            $email_body = "Tienes una nueva notificaci—n!.\n\n"."Detalles:\n\nNombre: $name\n\nEmail: $email_address\n\nTelefono: $phone\n\nMensaje:\n$message";
            $headers = "From: noreply@h2h.com\n";
